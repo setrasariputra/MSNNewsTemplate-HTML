@@ -29,6 +29,14 @@ body {
     font-size: 16px;
     font-weight: 500;
 }
+.box-article .article-img {
+    height: 120px;
+    overflow: hidden;
+}
+.box-article .article-img img {
+    width: 100%;
+    height: auto;
+}
 @media (max-width: 1350px) {
     .container {
         width: 1040px;
