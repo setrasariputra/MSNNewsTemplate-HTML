@@ -1,0 +1,26 @@
+body {
+    background: url('mountain.jpeg');
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.bg-dark {
+    background-color: #242424;
+}
+.rounded {
+    border-radius: 10px;
+}
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 10px;
+}
+.box-article {
+    background-color: #333333;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;    
+}
