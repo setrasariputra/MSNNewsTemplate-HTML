@@ -1,8 +1,9 @@
 body {
     background: url('mountain.jpeg');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .container {
-    width: 1000px;
+    width: 1350px;
     margin: auto;
     box-sizing: border-box;
     padding: 10px;
@@ -23,4 +24,40 @@ body {
     color: white;
     box-sizing: border-box;
     padding: 10px;    
+}
+.box-article h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+@media (max-width: 1350px) {
+    .container {
+        width: 1040px;
+    }
+    .main-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }    
+}
+@media (max-width: 1040px) {
+    .container {
+        width: 780px;
+    }
+    .main-grid {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }     
+}
+@media (max-width: 780px) {
+    .container {
+        width: 520px;
+    }
+    .main-grid {
+        grid-template-columns: 1fr 1fr; 
+    }
+}      
+@media (max-width: 520px) {
+    .container {
+        width: 280px;
+    }
+    .main-grid {
+        grid-template-columns: 1fr; 
+    }
 }
